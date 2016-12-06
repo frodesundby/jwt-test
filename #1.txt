@@ -1,0 +1,14 @@
+---- JSON Web Token (JWT) ----
+
+Basert på en åpen webstandard: RFC7519:
+ - definerer en sikker, kompakt og frittstående måte å overføre informasjon som JSON-objekter
+
+ Sikker:
+  - Innholdet kan verifiseres via digital signatur. HMAC-algoritme eller RSA
+
+ Kompakt:
+  - Kan sendes som URL, POST-parameter eller i HTTP-header
+
+ Frittstående:
+  - Tokenet inneholder all informasjonen som trengs om brukeren, så man slipper spørre en annen tjeneste.
+

@@ -1,0 +1,29 @@
+JWT Signature:
+
+For å lage signatur-delen av tokenet, setter man sammen de krypterte header- og payload-objektene med nøkkelen:
+
+HMACSHA256(
+    base64UrlEncode(header)
+    + "." +
+    base64UrlEncode(payload),
+    secret
+)
+
+
+=
+
+{
+    "typ": "JWT",
+    "alg": "HS256"
+}
+
+{
+    "iss": "https://aura-issuer.adeo.no",
+    "ident": "s138206",
+    "navn": "Frode Sundby",
+    "roles": ["admin", "superuser", "abuser", ]
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+.eyJpc3MiOiJodHRwczovL2F1cmEtaXNzdWVyLmFkZW8ubm8iLCJpZGVudCI6InMxMzgyMDYiLCJuYXZuIjoiRnJvZGUgU3VuZGJ5Iiwicm9sZXMiOlsiYWRtaW4iLCJzdXBlcnVzZXIiLCJhYnVzZXIiXX0
+.rHGcYVq_meJ4isqzoWR3YBJtKF6x9Oyx7NQj8lpNxYQ

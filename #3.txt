@@ -1,0 +1,9 @@
+JWT Header:
+Inneholder typisk bare to felt
+
+{
+    "typ": "JWT",
+    "alg": "HS256"
+}
+
+Dette JSON-objektet blir så Base64URL-encodet

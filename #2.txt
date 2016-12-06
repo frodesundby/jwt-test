@@ -1,0 +1,8 @@
+JWT-struktur
+
+Består av tre deler separert av .
+
+Header, payload og signatur
+
+xxxxxxxx.yyyyyyyy.zzzzzzzz
+

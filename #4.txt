@@ -1,0 +1,26 @@
+JWT Payload:
+Inneholder alle claims
+
+Reserverte claims:
+Predefinerte claims.
+Ikke obligatoriske, men anbefalt
+
+ - iss (issuer)
+ - exp (expiration time)
+ - sub (subject)
+ - aud (audience)
+ - m.fl.
+
+Public claims:
+ - Definert av de som bruker JWT
+ - Definert i IANA JSON Web Token Registry
+
+Private claims:
+Brukerdefinerte claims som brukes for å dele privat informasjon, type brukernavn.
+
+{
+    "iss": "https://aura-issuer.adeo.no",           //Reserved
+    "ident": "s138206",                             //Pirvate
+    "navn": "Frode Sundby",
+    "roles": ["admin", "superuser", "abuser", ]
+}
