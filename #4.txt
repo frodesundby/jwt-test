@@ -1,5 +1,5 @@
 JWT Payload:
-Inneholder alle claims
+Inneholder alle claims (Reserved, Public eller Private)
 
 Reserverte claims:
 Predefinerte claims.
@@ -24,3 +24,5 @@ Brukerdefinerte claims som brukes for å dele privat informasjon, type brukernav
     "navn": "Frode Sundby",
     "roles": ["admin", "superuser", "abuser", ]
 }
+
+.eyJpc3MiOiJodHRwczovL2F1cmEtaXNzdWVyLmFkZW8ubm8iLCJpZGVudCI6InMxMzgyMDYiLCJuYXZuIjoiRnJvZGUgU3VuZGJ5Iiwicm9sZXMiOlsiYWRtaW4iLCJzdXBlcnVzZXIiLCJhYnVzZXIiXX0

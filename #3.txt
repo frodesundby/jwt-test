@@ -6,4 +6,5 @@ Inneholder typisk bare to felt
     "alg": "HS256"
 }
 
-Dette JSON-objektet blir så Base64URL-encodet
+Dette JSON-objektet blir så Base64URL-encodet:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
